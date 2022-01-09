@@ -1,0 +1,491 @@
+<!-- 勝騏皮革 -->
+<!--URL:  http://www.shengchyi.com.tw/Default.asp -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>勝騏皮革</title>
+    <!-- <meta name=viewport content="width=device-width, initial-scale=1"> -->
+    <!--Third-Party Style -->
+    <link rel="stylesheet" href="Style/Third-Party/bootstrap/5.1.3/bootstrap.min.css">
+    <script src="Script/Third-Party/bootstrap/5.1.3/bootstrap.bundle.min.js"></script>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <!-- Own Style -->
+    <link rel="stylesheet" href="Style/Style.css">
+    <link rel="icon" href="Image/Logo.ico" type="image/x-icon">
+    <script>
+        function accordion_Button_Set_collapsed()
+        {
+            let i=0;
+            let p = document.querySelectorAll('#service .accordion-button')
+            for(;i< p.length;i++)
+            {
+                p[i].classList.add('collapsed')
+            }
+        }
+    </script>
+    <style>
+        /* body {
+            position: relative;
+        } */
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#selector" data-bs-offset="65" style="padding-top: 65px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="border-bottom: solid;">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">SHENGCHYI</a>
+            <button class="navbar-toggler btn-black" type="button" data-bs-toggle="collapse" data-bs-target="#selector"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="selector">
+                <ul class="nav nav-pills ms-auto mb-2 mb-lg-0" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#header">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#suggest">推薦</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#service">服務</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#product">產品</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#contact">聯繫</a>
+                    </li>
+                    <script>
+                        setTimeout(function () {
+                            document.querySelector('#spinnerSource').style.display = 'none';
+                            document.querySelector('#Tools-Source').style.display = 'block';
+                        }, 1000);
+                    </script>
+                    <li class="nav-item">
+                        <a id="Tools-Source" class="nav-link text-black" data-bs-toggle="modal"
+                            data-bs-target="#Tools-Source-modal" style="display: none;"><i class="fas fa-cloud"></i></a>
+                        <div id="spinnerSource" class="spinner-border spinner-border-md text-dark" role="status"></div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="modal" tabindex="-1" id="Tools-Source-modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">資料來源 / 引用工具</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>主要參考網站: <a href="http://www.shengchyi.com.tw/Default.asp" target="_blank">勝騏皮革</a> </p>
+                    <p>PWD框架: <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a> </p>
+                    <p>ICON提供來源: <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> </p>
+                    <p>Typewriter程式碼參考來源: <a href="https://www.w3schools.com/howto/howto_js_typewriter.asp"
+                            target="_blank">W3Schools - Typewriter</a> </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section id="header" class="padding-top65" style="background-color:rgb(240, 240, 240);">
+        <div class="container">
+            <div class="row min-vh-100">
+                <div class="col-lg-8 d-flex flex-column justify-content-center order-1 order-lg-0">
+                    <p class="fw-bold fs-3 AnimationText-1">給最重要的人 創造溫馨舒適的居家空間與氛圍『勝騏出品』</p>
+                    <p class="fs-4 AnimationText-2"></p>
+                </div>
+                <div class="col-lg-4 align-self-center">
+                    <img src="./Image/Logo-PhotoRoom.png" alt="Logo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="suggest" class="padding-top65 min-vh-100 bg-black">
+        <div class="container pt-3">
+            <p class="fs-1 text-white text-center">推薦</p>
+            <div class="row">
+                <div class="mb-3 col-lg-4 col-md-6 col-12">
+                    <img src="Image/Set/1.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+                <div class="mb-3 col-lg-4 col-md-6 col-12">
+                    <img src="Image/Set/2.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+                <!-- <div class=" mb-3 col-lg-4 col-md-6 col-12">
+                    <img src="Image/Set/3.jpg" class="img-fluid img-thumbnail" alt="">
+                </div> -->
+                <div class="mb-3 col-lg-4 col-md-6 col-12">
+                    <img src="Image/Set/4.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+                <div class="mb-3 col-lg-4 col-md-6 col-12">
+                    <img src="Image/Set/5.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+                <div class="mb-3 col-lg-4 col-md-6 col-12">
+                    <img src="Image/Set/6.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+                <div class="mb-3 col-lg-4 col-md-6 col-12">
+                    <img src="Image/Set/7.jpg" class="img-fluid img-thumbnail" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="service" class="padding-top65 min-vh-100 bg-dark">
+        <div class="container">
+            <!-- onclick="change()" -->
+            <div class="d-flex justify-content-between">
+                <p class="fs-2 fw-bold text-white">服務</p>
+                <div>
+                    <button class="btn btn-success fs-5" class="accordion-button" type="button"
+                        onclick="accordionStateSwitch(true)">
+                        <strong> 批次開啟</strong>
+                    </button>
+                    <button class="btn btn-danger fs-5" class="accordion-button" type="button"
+                        onclick="accordionStateSwitch(false)">
+                        <strong> 批次關閉</strong>
+                    </button>
+                </div>
+            </div>
+            <div class="accordion accordion-flush" id="accordion">
+                <!-- Item 1 ->  PRODUCT VARIETY-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-1">
+                            <strong>PRODUCT VARIETY</strong>
+                        </button>
+                    </h2>
+                    <div id="collapse-1" class="accordion-collapse collapse">
+                        <div class="accordion-body fs-5">
+                            擁有領先的研發創新能力，並依照不同用途開發出多元化產品，不僅帶給您舒適的使用體驗，豐富的色彩更呈現令人驚豔的視覺饗宴。
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 ->  FAST DELIVER-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-2" aria-expanded="true" aria-controls="collapse-2">
+                            <strong>FAST DELIVERY</strong>
+                        </button>
+                    </h2>
+                    <div id="collapse-2" class="accordion-collapse collapse">
+                        <div class="accordion-body fs-5">
+                            產品多以現貨庫存供應，大台北地區每日有固定路線專業配送服務；外縣市地區配合貨運物流，當日訂貨隔日到貨，迅速快捷。
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 ->  MARKETING-->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-3">
+                            <strong>MARKETING</strong>
+                        </button>
+                    </h2>
+                    <div id="collapse-3" class="accordion-collapse collapse">
+                        <div class="accordion-body fs-5">
+                            銷售網絡遍佈全台，於台灣各大家具賣場、精品家飾，以及沙發製作工廠皆可洽詢我們的產品或瀏覽產品型錄。
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -> QUALITY GUARANTEE -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-4">
+                            <strong>QUALITY GUARANTEE</strong>
+                        </button>
+                    </h2>
+                    <div id="collapse-4" class="accordion-collapse collapse">
+                        <div class="accordion-body fs-5">
+                            我們的產品有企業品牌、飯店專案以及室內設計師指定使用。品質穩定、物性標準高且已奠定良好口碑，是您可以信賴的好選擇。
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -> BESPOKE -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-5">
+                            <strong>BESPOKE</strong>
+                        </button>
+                    </h2>
+                    <div id="collapse-5" class="accordion-collapse collapse">
+                        <div class="accordion-body fs-5">
+                            我們了解客戶的需求，更歡迎顧客針對不同使用需求客製化產品，有任何需求歡迎直接與我們聯繫。
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 6 -> SHOW ROOM -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapse-6">
+                            <strong>SHOW ROOM</strong>
+                        </button>
+                    </h2>
+                    <div id="collapse-6" class="accordion-collapse collapse">
+                        <div class="accordion-body fs-5">
+                            我們備有展示空間陳列多樣化的產品，歡迎業界設計師多加利用。如您對挑選的材料有任何問題，我們亦有專業人員介紹。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="product" class="padding-top65 min-vh-100 pb-2" style="background-color:#cff4fc;">
+        <p class="fs-2 text-center fw-bold">產品</p>
+        <div class="container bg-light rounded">
+            <ul class="nav nav-tabs active" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link border border-dark fw-bold rounded-pill" id="imported-cowhide-tab"
+                        data-bs-toggle="tab" data-bs-target="#imported-cowhide" type="button" role="tab"
+                        aria-controls="home" aria-selected="true">進口牛皮</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link border border-dark fw-bold rounded-pill "
+                        id="synthetic-leather-upholstery-tab" data-bs-toggle="tab"
+                        data-bs-target="#synthetic-leather-upholstery" type="button" role="tab" aria-controls="profile"
+                        aria-selected="false">合成皮家飾</button>
+                </li>
+                <li class="nav-item " role="presentation">
+                    <button class="nav-link border border-dark fw-bold rounded-pill" id="household-fabric-tab"
+                        data-bs-toggle="tab" data-bs-target="#household-fabric" type="button" role="tab"
+                        aria-controls="contact" aria-selected="false">家飾布織品</button>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="imported-cowhide" role="tabpanel"
+                    aria-labelledby="imported-cowhide-tab">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><i class="far fa-star fs-4 text-danger"></i><span
+                                class="fw-bold">98奢華</span> 1.2~1.4mm</li>
+                        <li class="list-group-item ps-5"><span class="fw-bold">22系列</span> 1.8~2.0mm</li>
+                        <li class="list-group-item ps-5"><span class="fw-bold">23系列</span> 1.8~2.0mm</li>
+                        <li class="list-group-item ps-5"><span class="fw-bold">66系列</span> 1.4~1.6mm</li>
+                        <li class="list-group-item ps-5"><span class="fw-bold">77系列</span> 1.4~1.6mm</li>
+                        <li class="list-group-item ps-5"><span class="fw-bold">88系列</span> 1.0~1.2mm</li>
+                        <li class="list-group-item ps-5"><span class="fw-bold">79系列</span> 1.2~1.4mm</li>
+                        <li class="list-group-item ps-5"><span class="fw-bold">59系列</span> 鱷魚紋</li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="synthetic-leather-upholstery" role="tabpanel"
+                    aria-labelledby="synthetic-leather-upholstery-tab">
+                    <ul class="list-group list-group-flush">
+                        <ll class="list-group-item">
+                            <p class="fs-5 fw-bold">系列</p>
+                            <ul class="list-group">
+                                <li class="list-group-item fw-bold ps-5">涼感皮</li>
+                                <li class="list-group-item fw-bold ps-5">超耐刮 </li>
+                                <li class="list-group-item fw-bold"><i class="far fa-star fs-4 text-danger"></i><span
+                                        class="fw-bold">寵物皮 </li>
+                                <li class="list-group-item fw-bold"><i class="far fa-star fs-4 text-danger"></i><span
+                                        class="fw-bold">寵物皮2 </li>
+                                <li class="list-group-item ps-5 fw-bold">2F家飾皮 </li>
+                                <li class="list-group-item ps-5 fw-bold">超纖皮革 </li>
+                                <li class="list-group-item ps-5 fw-bold">南亞呼吸 </li>
+                                <li class="list-group-item ps-5 fw-bold">羅馬厚彩皮 </li>
+                                <li class="list-group-item ps-5 fw-bold">厚面皮革 </li>
+                                <li class="list-group-item ps-5 fw-bold">耐燃彩虹皮 </li>
+                                <li class="list-group-item ps-5 fw-bold">彩虹皮 </li>
+                            </ul>
+                            <p class="fs-5 fw-bold">超厚系列</p>
+                            <ul class="list-group">
+                                <li class="list-group-item ps-5"><span class="fw-bold">Q軟皮</span></li>
+                            </ul>
+                            <p class="fs-5 fw-bold">耐刮系列</p>
+                            <ul class="list-group">
+                                <li class="list-group-item "><i class="far fa-star fs-4 text-danger"></i><span
+                                        class="fw-bold">舒適皮</span></li>
+                            </ul>
+                        </ll>
+                        <ll class="list-group-item">
+                            <p class="fs-5 fw-bold">歐洲進口</p>
+                            <ul class="list-group">
+                                <li class="list-group-item ps-5"><span class="fw-bold">歐洲60</span></li>
+                                <li class="list-group-item ps-5"><span class="fw-bold">歐洲61 </span></li>
+                            </ul>
+                            <!-- list-group-flush -->
+                        </ll>
+
+
+
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="household-fabric" role="tabpanel" aria-labelledby="household-fabric-tab">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span class="fw-bold ps-4">虎牌織品 ➤</span> 西班牙進口</li>
+                        <li class="list-group-item"><i class="far fa-star fs-4 text-danger"></i><span
+                                class="fw-bold">685 ➤</span> 美國貓抓布</li>
+                        <li class="list-group-item"><i class="far fa-star fs-4 text-danger"></i><span
+                                class="fw-bold">680 ➤</span> 美國貓抓布</li>
+                        <li class="list-group-item ps-4"><span class="fw-bold ps-3">656 ➤</span> 西班牙貓抓布</li>
+                        <li class="list-group-item"><i class="far fa-star fs-4 text-danger"></i><span
+                                class="fw-bold">655 ➤</span> 莫藍迪貓抓布</li>
+                        <li class="list-group-item ps-4"><span class="fw-bold ps-3">645 ➤</span> 歐洲編織</li>
+                        <li class="list-group-item ps-4"><span class="fw-bold ps-3">640 ➤</span> 歐洲進口</li>
+                        <li class="list-group-item ps-4"><span class="fw-bold ps-3">639 ➤</span> 易去污絨</li>
+                        <li class="list-group-item ps-4"><span class="fw-bold ps-3">638 ➤</span> 歐洲亞麻</li>
+                        <li class="list-group-item ps-4"><span class="fw-bold ps-3">535 ➤</span> 格紋亞麻</li>
+                        <li class="list-group-item ps-4"><span class="fw-bold ps-3">530 ➤</span> 耐磨抗刮</li>
+                        <li class="list-group-item"><i class="far fa-star fs-4 text-danger"></i><span
+                                class="fw-bold">528 ➤</span>冰絲涼感</li>
+                        <li class="list-group-item"><i class="far fa-star fs-4 text-danger"></i><span
+                                class="fw-bold">527 ➤</span>天絲涼感</li>
+                        <li class="list-group-item ps-4"><span class="fw-bold ps-3">526 ➤</span> 超細亞麻</li>
+                        <li class="list-group-item ps-4"><span class="fw-bold ps-3">525 ➤</span> 耐磨小羊</li>
+                        <li class="list-group-item ps-4"><span class="fw-bold ps-3">520 ➤</span> 呼吸涼感</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="contact" class="">
+        <div class="img-fluid bg-gray" style="background: url('Image/Logo_Full.png') fixed; background-size: cover;">
+            <div class="container text-dark">
+                <div class="row py-5 d-flex align-items-center justify-content-between">
+                    <div class="col-lg-9">
+                        <h2 class="fw-bold fs-2 pb-3 transparent-Word">Contact To US</h2>
+                        <p class="transparent-Word fs-3"> Simple and Efficient Email to Help You Send Transactional
+                            Notifications and Batch Email.
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <a href="#" class="btn btn-outline-info rounded-pill btn-lg text-dark border-5 fw-bold"
+                            data-bs-target="#MySub" data-bs-toggle="modal">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="MySub">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Contact To US</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            索取資料
+                            <div class="mb-3 d-flex">
+
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios1" value="option1" checked>
+                                    <label class="form-check-label" for="exampleRadios1">
+                                        索取小樣
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">
+                                        索取樣本
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios3" value="option3">
+                                    <label class="form-check-label" for="exampleRadios3">
+                                        索取電子DM
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios4" value="option4">
+                                    <label class="form-check-label" for="exampleRadios4">
+                                        產品諮詢
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="exampleRadios"
+                                        id="exampleRadios5" value="option5">
+                                    <label class="form-check-label" for="exampleRadios5">
+                                        其他
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="SubName" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="SubName">
+                            </div>
+                            <div class="mb-3">
+                                <label for="SubEmail" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="SubEmail">
+                            </div>
+                            <div class="mb-3">
+                                <div class="row">
+                                    <div class="col-8">
+                                        <label for="SubTelephone" class="form-label">Telephone number</label>
+                                        <input type="text" class="form-control" id="SubTelephone">
+                                    </div>
+                                    <div class="col-4">
+                                        #
+                                        <label for="SubTelephone" class="form-label">extension</label>
+                                        <input type="text" class="form-control" id="SubTelephone">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="padding-top65 bg-dark text-white pt-3 pb-1">
+        <div class="container d-flex justify-content-between fs-4">
+            <p>余嘉笠</p>
+            <div class="d-inline-flex">
+                <p>CBB110124</p>
+                <a href="mailto: cbb110124@nptu.edu.tw" class="px-3 text-white" style="text-decoration:none;">
+                    <i class="far fa-envelope fs-2"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Own Script -->
+    <script src="Script/Script.js"></script>
+    <script src="Script/Typewrirer.js"></script>
+    <!--Third-Party Script -->
+    
+    <script src="Script/Third-Party/kit.fontawesome.com/fd533b3f92.js"></script>
+    <script>
+        accordion_Button_Set_collapsed();
+    </script>
+</body>
+
+</html>
