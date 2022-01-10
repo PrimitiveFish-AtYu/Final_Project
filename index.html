@@ -19,7 +19,7 @@
     <script>
         function accordion_Button_Set_collapsed() {
             let i = 0;
-            let p = document.querySelectorAll('#service .accordion-button')
+            let p = document.querySelectorAll('#section-service .accordion-button')
             for (; i < p.length; i++) {
                 p[i].classList.add('collapsed')
             }
@@ -80,6 +80,7 @@
                     <p>ICON提供來源: <a href="https://fontawesome.com/" target="_blank">Font Awesome</a> </p>
                     <p>Typewriter程式碼參考來源: <a href="https://www.w3schools.com/howto/howto_js_typewriter.asp"
                             target="_blank">W3Schools - Typewriter</a> </p>
+					<p>Contact section的背景圖片來源 <a href="https://unsplash.com/" target="_blank">Unsplash </a>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -239,8 +240,8 @@
         <p class="fs-2 text-center fw-bold">Product</p>
         <div class="container bg-light rounded">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link border border-dark fw-bold rounded-pill show active"
+                <li class="nav-item active" role="presentation">
+                    <button class="nav-link border border-dark fw-bold rounded-pill active"
                         id="imported-cowhide-tab" data-bs-toggle="tab" data-bs-target="#imported-cowhide" type="button"
                         role="tab" aria-controls="home" aria-selected="true">進口牛皮</button>
                 </li>
