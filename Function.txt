@@ -1,5 +1,7 @@
 CBB110124 余嘉笠
 專案名稱: 勝騏皮革
+本網站目前架設於Github Page
+URL: https://nptuyuja.github.io/Final_Project/
 ==================================================================
 [必要功能]
 Navigation bar:
