@@ -2,7 +2,6 @@
 <!--URL:  http://www.shengchyi.com.tw/Default.asp -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>勝騏皮革</title>
@@ -26,11 +25,6 @@
             }
         }
     </script>
-    <style>
-        /* body {
-            position: relative;
-        } */
-    </style>
 </head>
 
 <body data-spy="scroll" data-target="#selector" data-bs-offset="60" style="padding-top: 60px;">
@@ -44,19 +38,19 @@
             <div class="collapse navbar-collapse " id="selector">
                 <ul class="nav nav-pills ms-auto mb-2 mb-lg-0" role="tablist">
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#header">首頁</a>
+                        <a class="nav-link fw-bold" href="#section-home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#suggest">推薦</a>
+                        <a class="nav-link fw-bold" href="#section-recommend">Recommend</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#service">服務</a>
+                        <a class="nav-link fw-bold" href="#section-service">Service</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#product">產品</a>
+                        <a class="nav-link fw-bold" href="#section-product">Product</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fw-bold" href="#contact">聯繫</a>
+                        <a class="nav-link fw-bold" href="#section-contact">Contact</a>
                     </li>
                     <script>
                         setTimeout(function () {
@@ -93,7 +87,7 @@
             </div>
         </div>
     </div>
-    <section id="header" class="padding-top65" style="background-color:rgb(240, 240, 240);">
+    <section id="section-home" class="padding-top65" style="background-color:rgb(250 ,245 ,222);">
         <div class="container">
             <div class="row min-vh-100">
                 <div class="col-lg-8 d-flex flex-column justify-content-center order-1 order-lg-0">
@@ -106,9 +100,9 @@
             </div>
         </div>
     </section>
-    <section id="suggest" class="padding-top65 min-vh-100 bg-black">
+    <section id="section-recommend" class="padding-top65 min-vh-100 bg-black">
         <div class="container pt-3">
-            <p class="fs-1 text-white text-center">推薦</p>
+            <p class="fs-1 text-white text-center">Recommend</p>
             <div class="row">
                 <a href="http://shengchyi.com.tw/Showroom/ugC_ShowroomItem.asp?hidShowKindID=3&hidShowTypeID=45"
                     target="_blank" class="mb-3 col-lg-4 col-md-6 col-12">
@@ -137,19 +131,19 @@
             </div>
         </div>
     </section>
-    <section id="service" class="padding-top65 min-vh-100 bg-dark">
+    <section id="section-service" class="padding-top65 min-vh-100 bg-dark">
         <div class="container">
             <!-- onclick="change()" -->
             <div class="d-flex justify-content-between">
-                <p class="fs-2 fw-bold text-white">服務</p>
+                <p class="fs-2 fw-bold text-white">Service</p>
                 <div>
                     <button class="btn btn-success fs-5 ms-2" class="accordion-button" type="button"
                         onclick="accordionStateSwitch(true);">
-                        <strong> 批次開啟</strong>
+                        <strong> All Open</strong>
                     </button>
                     <button class="btn btn-danger fs-5 ms-2" class="accordion-button" type="button"
                         onclick="accordionStateSwitch(false);">
-                        <strong> 批次關閉</strong>
+                        <strong> All Close</strong>
                     </button>
                 </div>
             </div>
@@ -241,8 +235,8 @@
             </div>
         </div>
     </section>
-    <section id="product" class="padding-top65 min-vh-100 pb-2" style="background-color:#cff4fc;">
-        <p class="fs-2 text-center fw-bold">產品</p>
+    <section id="section-product" class="padding-top65 min-vh-100 pb-2" style="background-color:#cff4fc;">
+        <p class="fs-2 text-center fw-bold">Product</p>
         <div class="container bg-light rounded">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item" role="presentation">
@@ -313,11 +307,7 @@
                                 <li class="list-group-item ps-5"><span class="fw-bold">歐洲60</span></li>
                                 <li class="list-group-item ps-5"><span class="fw-bold">歐洲61 </span></li>
                             </ul>
-                            <!-- list-group-flush -->
                         </ll>
-
-
-
                     </ul>
                 </div>
                 <div class="tab-pane fade" id="household-fabric" role="tabpanel" aria-labelledby="household-fabric-tab">
@@ -349,7 +339,10 @@
         </div>
 
     </section>
-    <section id="contact" class="">
+	
+	
+	
+    <section id="section-contact" class="">
         <div class="img-fluid bg-gray"
             style="background: url('Image/Contact-To-Us.jpg') fixed; background-size: cover;">
             <div class="container text-dark">
@@ -461,27 +454,6 @@
     </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Own Script -->
     <script src="Script/Script.js"></script>
     <script src="Script/Typewrirer.js"></script>
@@ -491,7 +463,7 @@
 
     <script>
         accordion_Button_Set_collapsed();
-        // document.querySelector('#imported-cowhide-tab').classList.add('active');
+    
     </script>
 </body>
 

@@ -10,22 +10,22 @@ section.padding-top65 {
         padding-right: var(--nav-item-padding);
     }
 }
-#service .accordion-item 
+#section-service .accordion-item 
 {
     margin-top: 5px;
     border: 1px solid;
 }
-#service .accordion-button
+#section-service .accordion-button
 {
     border: 1px solid;
     background-color: black;
     color: white;
 }
-#service .accordion-button:not(.collapsed)::after /*Open*/
+#section-service .accordion-button:not(.collapsed)::after /*Open*/
 {
     background-image: var(--accordion-button-active-icon);
 }
-#service .accordion-button::after /*Close*/
+#section-service .accordion-button::after /*Close*/
 {
     background-image: var(--accordion-button-icon);
 }
