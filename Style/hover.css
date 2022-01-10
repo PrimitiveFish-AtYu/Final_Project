@@ -1,0 +1,50 @@
+@import url('./definition.css');
+/* #product */
+#product .nav-item button:hover
+{
+    background-color: black;
+    color: white;
+}
+/* #service  */
+#service .accordion-item button:hover
+{
+    background-color: white;
+    color: black;
+}
+#service .accordion-button:hover::after
+{
+    
+    background-image: var(--accordion-button-icon-hover);
+}
+#service .accordion-button:hover:not(.collapsed)::after
+{
+    background-image: var(--accordion-button-active-icon-hover);
+}
+#service .container .d-flex div button:hover
+{
+    box-shadow: 0px 0px 10px white;
+} 
+/* #SelfEmai */
+#SelfEmail i:hover
+{
+    box-shadow: 0px 0px 10px white;
+    color: yellow;
+}
+/* #selector */
+#selector .nav-item:hover , .navbar-brand:hover
+{
+    /* border-radius: 5rem ; */
+    background-color: white;
+    box-shadow: -2px -2px 3px black;
+    /* border-bottom: 1px black solid; */
+    /* border: 1px black solid; */
+}
+/* #suggest */
+#suggest .container .row a img:hover {
+    background-color: yellow;
+    box-shadow: -1px -1px 30px white;
+}
+nav div button.navbar-toggler:hover{
+    /* background-color: red; */
+    box-shadow: -1px -1px 10px black;
+}
